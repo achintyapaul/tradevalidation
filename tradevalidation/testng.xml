@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trade Validation Test Suite">
+	<test name="Trade Validation Test">
+		<groups>
+			<run>
+				<include name="regression" />
+				<!--include name="common" /-->
+				<!--include name="optionType" /-->
+			</run>
+		</groups>
+		<classes>
+			<class name="qa.tradevalidation.ValidateTrade" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
